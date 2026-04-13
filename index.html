@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!--boostrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<!--css datatable-->
+ <link rel="stylesheet" href="https://cdn.datatables.net/2.3.7/js/dataTables.js">
+    <link rel="stylesheet" href="//cdn.datatables.net/2.3.7/css/dataTables.bootstrap5.min.css">
+
+<!--iconos-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+      <!-- mi CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+    
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <table id="datatable_users" class="table">
+                <thead>
+                    <tr>                        
+                        <th class="centered">#</th>
+                        <th class="centered">nombre</th>
+                        <th class="centered">email</th>
+                        <th class="centered">ciudad</th>
+                        <th class="centered">compañia</th>
+                        <th class="centered">status</th>
+                        <th class="centered">acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody_users"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+ <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ 
+    <!-- jQuery -->
+     <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+
+ <!-- js de datatables -->
+     <script src="//cdn.datatables.net/2.3.7/js/dataTables.min.js"></script>
+    <script src="//cdn.datatables.net/2.3.7/js/dataTables.bootstrap5.min.js"></script>  
+
+
+<script src="dataTable.js"></script>
+
+
+</body>
+</html>

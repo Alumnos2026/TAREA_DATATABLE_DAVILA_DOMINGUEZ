@@ -1,0 +1,5 @@
+/*centrado de columnas en la tabla */
+.centered {
+text-align: center;
+vertical-align: middle;
+}
